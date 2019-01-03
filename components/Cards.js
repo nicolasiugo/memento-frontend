@@ -8,9 +8,10 @@ const CARDS_FOR_TODAY_QUERY = gql`
   query CARDS_FOR_TODAY_QUERY {
     cardsForToday {
       id
-      title
+      level
       frontContent
       backContent
+      lastReviewdAt
     }
   }
 `;
